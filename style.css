@@ -1,6 +1,16 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+main{
+    max-width: 800px;
+    min-width: 310px;
+    max-height: 480px;
+    min-height: 580px;
+    padding-bottom: 5px;
 }
 .box{
     color: white;
@@ -9,12 +19,18 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 15px;
+    padding: 12px 12px 12px;
     border-radius: 15px;
     width: 40%;
+    max-width: 800px;
+    min-width: 310px;
+    max-height: 310px;
+    min-height: 630px;
+    
 }
 fieldset{
     border: 3px solid dodgerblue;
+    border-radius: 12px;
 }
 legend{
     border: 1px solid dodgerblue;
